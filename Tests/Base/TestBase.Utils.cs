@@ -143,7 +143,7 @@ namespace Tests
 				|| CustomizationSupport.Interceptor.IsCollatedTableConfigured(provider)
 				;
 		}
-
+// lol
 		protected static Tests.Tools.TempTable<T> CreateTempTable<T>(IDataContext db, string tableName, string context)
 			where T : notnull
 		{
